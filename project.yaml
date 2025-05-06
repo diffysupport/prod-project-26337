@@ -35,7 +35,7 @@ basic:
         - /news/404
         - /explore
         - /explore/compare
-        - '/explore/compare/?p=Administrative%20Assistant%20%2528Full-time%2529&p=Game%20Development%20-%20Art&p=Accounting'
+        - '/explore/compare/?p=Administrative%20Assistant%20(Full-time)&p=Game%20Development%20-%20Art&p=Accounting'
         - /explore/results
         - /explore/creative-arts
         - /explore/advanced-credentials
@@ -83,7 +83,7 @@ advanced:
         - { header: '', value: '' }
     cookies: ''
     custom_js: ''
-    custom_css: ''
+    custom_css: ".wp-block-rrc-polytech-slider .swiper:before {\n  background: none !important;\n}\n.heroBanner {\n  background: none !important;\n}\n.rrc-InfiniteHits-item .wp-block-image.card-imge {\n  display: none !important;\n}\n"
     mock_content:
         - { selector: '', type: title }
     login:
